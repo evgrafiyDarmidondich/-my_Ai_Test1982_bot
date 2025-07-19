@@ -7,6 +7,8 @@ from aiogram.types import Message, CallbackQuery
 from aiogram.filters import CommandStart
 
 from app.generators import ai_generate
+import app.keyboards as kb
+
 
 user_router = Router()
 
@@ -14,7 +16,7 @@ user_router = Router()
 async def cmd_star_user(message: Message):
     await message.bot.send_chat_action(chat_id=message.from_user.id, action=ChatAction.TYPING)
     await asyncio.sleep(0.5)
-    await message.answer('Привет')
+    await message.answer('Привет', reply_markup=kb.main)
 
 # Роутер реагирует на любой текст ответом от ИИ
 @user_router.message()

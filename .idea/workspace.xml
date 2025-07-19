@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe2200b7-daf1-4188-97c0-1e6b0cc53c3f" name="Changes" comment="создал и подключил админ и юзер роутеры">
-      <change afterPath="$PROJECT_DIR$/app/generators.py" afterDir="false" />
+    <list default="true" id="fe2200b7-daf1-4188-97c0-1e6b0cc53c3f" name="Changes" comment="создал генератор ответов юзеру от ИИ&#10;и роутер вопроса">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/generators.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/generators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/keyboards.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752921441561</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="создал генератор ответов юзеру от ИИ&#10;и роутер вопроса">
+      <option name="closed" value="true" />
+      <created>1752923586538</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752923586538</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -145,6 +154,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="создал и подключил админ и юзер роутеры" />
-    <option name="LAST_COMMIT_MESSAGE" value="создал и подключил админ и юзер роутеры" />
+    <MESSAGE value="создал генератор ответов юзеру от ИИ&#10;и роутер вопроса" />
+    <option name="LAST_COMMIT_MESSAGE" value="создал генератор ответов юзеру от ИИ&#10;и роутер вопроса" />
   </component>
 </project>

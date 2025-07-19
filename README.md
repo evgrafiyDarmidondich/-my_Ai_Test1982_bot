@@ -1,1 +1,1 @@
-pip install aiogram sqlalchemy asyncpg
+pip install aiogram sqlalchemy asyncpg openai

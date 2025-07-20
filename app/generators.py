@@ -13,7 +13,8 @@ client = AsyncOpenAI(
 async def ai_generate(req):
     completion = await client.chat.completions.create(
         extra_body={},
-        model="deepseek/deepseek-chat-v3-0324:free",
+        # model="deepseek/deepseek-chat-v3-0324:free",
+        model="deepseek/deepseek-r1-0528:free",
         messages=[
             {
                 "role": "user",
@@ -22,4 +23,5 @@ async def ai_generate(req):
             }
         ]
       )
+
     return completion.choices[0].message.content

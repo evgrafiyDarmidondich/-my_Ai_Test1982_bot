@@ -5,10 +5,16 @@ class Chat(StatesGroup):
     wait = State()
 
 class RequstForm(StatesGroup):
-    datas = State()
+    dates = State()
     comand1 = State()
     comand2 = State()
-    matchInfo = State()
+    inputSostav1 = State()
+    inputSostav2 = State()
+    noInputSostav2 = State()
     isComrade = State()
+    isComrade_check = State()
     done = State()
-    form = State()
+
+    checkForm = State()
+    formS = State()
+
